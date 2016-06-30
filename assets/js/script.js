@@ -3,7 +3,7 @@ $(function(){
 	//change the start date and end date as you like. Remember in JS value of month January is 0.
 	var note = $('#note'),startdate = new Date(2016,5,30),enddate = new Date(2016,6,16),newYear = true; 
 		
-		//next two line and next line is responsible to find the difference between countdown start and end date it's give the out put as how many days!
+		//next two lines are responsible to find the difference between countdown start and end date it's give the out put as how many days!
 		var timeDiff = Math.abs(enddate.getTime() - startdate.getTime());
 		var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)); 
 		console.log(diffDays);
